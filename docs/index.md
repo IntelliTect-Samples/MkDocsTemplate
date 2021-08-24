@@ -14,3 +14,14 @@ Clone Force 99, unofficially known as the "Bad Batch" and designated as Experime
 - [Wrecker](wrecker.md)
 - [Crosshair](crosshair.md)
 
+## Code
+
+Tech's favorite code is **python**
+
+``` python
+def get_favorite_code(who: str):
+    if who == 'Tech':
+        print('Python!')
+    else:
+        print('What\'s code?')
+```

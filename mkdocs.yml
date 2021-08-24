@@ -2,6 +2,24 @@ site_name: Clone Force 99
 
 markdown_extensions:
   - attr_list
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: material
+  favicon: img/favicon.png
+  logo: img/favicon.png
+  font:
+    text: Orbitron
+  palette:
+    - scheme: slate
+      primary: red
+      accent: red
+  features:
+    - navigation.instant
 
 nav:
   - Hunter: "hunter.md"
