@@ -1,17 +1,27 @@
-# Welcome to MkDocs
+# Clone Force 99
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![](img/emblem.jpg){: style="height:136px;width:100px" }
 
-## Commands
+## Summary
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Clone Force 99, unofficially known as the "Bad Batch" and designated as Experimental Unit Clone Force 99, was a clone commando special forces squad that was active during the Clone Wars. The squad initially consisted of four clone commandos that were designed with genetic mutations and led by Clone Sergeant "Hunter," a clone with enhanced sensory abilities. Other members of the squad included CT-9904 "Crosshair," a clone with keen eyesight and marksmanship that allowed him to excel in long-distance firefights, "Wrecker," a reckless clone with enhanced muscular form, and "Tech," a clone with enhanced mental capacity and intelligence. Following the crucial Battle of Anaxes, Advanced Recon Commando Clone Corporal CT-1409 "Echo" joined the unit. 
 
-## Project layout
+## Squad
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [Hunter](hunter.md)
+- [Echo](echo.md)
+- [Tech](tech.md)
+- [Wrecker](wrecker.md)
+- [Crosshair](crosshair.md)
+
+## Code
+
+Tech's favorite code is **python**
+
+``` python
+def get_favorite_code(who: str):
+    if who == 'Tech':
+        print('Python!')
+    else:
+        print('What\'s code?')
+```
